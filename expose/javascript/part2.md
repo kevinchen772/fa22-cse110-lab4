@@ -9,6 +9,9 @@
 9. The code caused an error because the variable declared by `let` only exist within block scope. Outside the for loop block, `i` variable is not defined. 
 10. Line 12 will print `3` because `length` was assigned with the length value of `prices` array which is `3`. 
 11. This function will return `[ 50, 100, 150 ]` because the loop executed 3 times, and `discountedPrice` was updated 3 times with the value `100 * 0.5 = 50`, `200 * 0.5 = 100`, `300 * 0.5 = 150`. Those values were pushed into the array `discounted`. So when `discounted` was returned, the value became `[ 50, 100, 150 ]`. 
-12. 
-        A. `student.name`
+12.     A. `student.name`
         B. `student["Grad Year"]`
+        C. 
+        D. `student["Favorite Teacher"].name`
+        E. `student.courseLoad[0]`
+13. 
