@@ -12,7 +12,17 @@
 12. 
     A. `student.name`
     B. `student["Grad Year"]`
-    C. 
+    C. `student.greeting()`
     D. `student["Favorite Teacher"].name`
     E. `student.courseLoad[0]`
 13. 
+    A. `'32'`. The output was given because string conversion happens to `2` when trying to add a number with a string. It is interpreted as string concatenation. 
+    B. `1`. The output was given because numeric conversion happens as the numerical value of string `'3'` is needed in order to do the subtraction. 
+    C. `3`. The output was given because numeric conversion happens to `null` when tring to add a number with `null`. The numerical value of null is `0`. 
+    D. `'3null'`. The output was given because string conversion happens to `null` when trying to add it with a string. The string value of `null` is `'null'`.
+    E. `4`. The output was given because numeric conversion happens as the numerical value of `true` is needed in order to do the addition. The numerical value of `true` is `1`. 
+    F. `0`. The output was given because numeric conversion happens as the numerical value of `false` and `null` is needed in order to do the addition. The numerical value of `false` and `null` are both `0`.
+    G. `NaN`. The output was given because the global undefined property represents the primitive value `undefined` . It tells us that something has not assigned value; isn't defined. `undefined` isn't converted into any number, so using it in maths calculations returns NaN.
+    H. `NaN`. The output was given because the global undefined property represents the primitive value `undefined` . It tells us that something has not assigned value; isn't defined. `undefined` isn't converted into any number, so using it in maths calculations returns NaN.
+14. 
+    A.
