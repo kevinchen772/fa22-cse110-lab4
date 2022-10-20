@@ -22,7 +22,7 @@
     - D. `'3null'`. The output was given because string conversion happens to `null` when trying to add it with a string. The string value of `null` is `'null'`.
     - E. `4`. The output was given because numeric conversion happens as the numerical value of `true` is needed in order to do the addition. The numerical value of `true` is `1`. 
     - F. `0`. The output was given because numeric conversion happens as the numerical value of `false` and `null` is needed in order to do the addition. The numerical value of `false` and `null` are both `0`.
-    - G. `NaN`. The output was given because the global undefined property represents the primitive value `undefined` . It tells us that something has not assigned value; isn't defined. `undefined` isn't converted into any number, so using it in maths calculations returns NaN.
+    - G. `3undefined`. The output was given because string conversion happens to `undefined` when trying to add it with a string `3`. The string value of `undefined` is `'undefined'`.
     - H. `NaN`. The output was given because the global undefined property represents the primitive value `undefined` . It tells us that something has not assigned value; isn't defined. `undefined` isn't converted into any number, so using it in maths calculations returns NaN.
 14. 
     - A.
