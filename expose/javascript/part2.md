@@ -32,5 +32,7 @@
     - E. `false`. The output is given because operands of different types are converted to numbers by the equality operator `==`. `'2'` was converted to `2` and `true` was converted to `1`.
     - F. `true`. The output is given because a strict equality operator `===` checks the equality without type conversion. Since `2` was casted to boolean type by `Boolean(2)`, it becomes `true`. So the strict equality operator will return `true`.
 15.  Operands of different types are converted to numbers by the equality operator `==` so that it cannot differentiate `0` from `false`. On the other hand, a strict equality operator `===` checks the equality without type conversion. In other words, if a and b are of different types, then `a === b` immediately returns `false` without an attempt to convert them.
+16. part2-question16.js
 17. `[ 2, 4, 6 ]` will be the result. The function `doSomething` is passed in to function `modifyArray` as an argument. In `modifyArray`, we are looping through the input array `[ 1, 2, 3 ]` and using `doSomething` to double the value in the input array. Thus, we `modifyArray` is called, `[ 1, 2, 3 ]` becomes `[ 2, 4, 6 ]`.
+18. part2-question18.js
 19. The output is `1 4 3 2`. 
