@@ -1,0 +1,2 @@
+1. The bug is that both of the inputs are treated as string type. When adding them together, we are doing a string concatenation.
+2. We can fix it by convert the type of `num1` and `num2` to number by using `parseInt()`.
